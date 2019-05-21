@@ -1,0 +1,24 @@
+spring:
+  data:
+    neo4j:
+      uri: bolt://192.168.1.15:7687
+      username: neo4j
+      password: 12345
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    publisher-returns: true
+    listener:
+      simple:
+        acknowledge-mode: manual
+      direct:
+        acknowledge-mode: manual
+
+logging:
+  file: ./logs/my.log
+
+msg-queue: messagechange
+

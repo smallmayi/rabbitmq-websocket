@@ -1,0 +1,38 @@
+2019-04-29 10:52:17.422  INFO 17564 --- [main] com.jwis.demo.DemoApplication            : Starting DemoApplication on PWC1FLHUD66L4KQ with PID 17564 (D:\test\jwisdemo\target\classes started by Administrator in D:\test\jwisdemo)
+2019-04-29 10:52:17.426  INFO 17564 --- [main] com.jwis.demo.DemoApplication            : No active profile set, falling back to default profiles: default
+2019-04-29 10:52:18.317  INFO 17564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-29 10:52:18.390  INFO 17564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 2 repository interfaces.
+2019-04-29 10:52:18.649  INFO 17564 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd96625d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-29 10:52:18.931  INFO 17564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-29 10:52:18.952  INFO 17564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-29 10:52:18.953  INFO 17564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-29 10:52:18.959  INFO 17564 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-04-29 10:52:18.959  INFO 17564 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-04-29 10:52:18.959  INFO 17564 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-29 10:52:18.959  INFO 17564 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-29 10:52:18.962  INFO 17564 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-04-29 10:52:19.075  INFO 17564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-29 10:52:19.075  INFO 17564 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1608 ms
+2019-04-29 10:52:19.494  INFO 17564 --- [main] org.neo4j.ogm.metadata.DomainInfo        : Starting Post-processing phase
+2019-04-29 10:52:19.494  INFO 17564 --- [main] org.neo4j.ogm.metadata.DomainInfo        : Building annotation class map
+2019-04-29 10:52:19.495  INFO 17564 --- [main] org.neo4j.ogm.metadata.DomainInfo        : Building interface class map for 14 classes
+2019-04-29 10:52:19.503  INFO 17564 --- [main] org.neo4j.ogm.metadata.DomainInfo        : Post-processing complete
+2019-04-29 10:52:19.563  INFO 17564 --- [main] o.s.d.neo4j.mapping.Neo4jMappingContext  : No class information found in OGM meta-data for class com.fasterxml.jackson.databind.ObjectMapper so treating as simple type for SD Commons
+2019-04-29 10:52:19.571  WARN 17564 --- [main] o.s.d.n.mapping.Neo4jPersistentProperty  : Owning ClassInfo is null for property: org.slf4j.Logger.errorEnabled
+2019-04-29 10:52:19.571  WARN 17564 --- [main] o.s.d.n.mapping.Neo4jPersistentProperty  : Owning ClassInfo is null for property: org.slf4j.Logger.name
+2019-04-29 10:52:19.572  WARN 17564 --- [main] o.s.d.n.mapping.Neo4jPersistentProperty  : Owning ClassInfo is null for property: org.slf4j.Logger.infoEnabled
+2019-04-29 10:52:19.572  WARN 17564 --- [main] o.s.d.n.mapping.Neo4jPersistentProperty  : Owning ClassInfo is null for property: org.slf4j.Logger.debugEnabled
+2019-04-29 10:52:19.573  WARN 17564 --- [main] o.s.d.n.mapping.Neo4jPersistentProperty  : Owning ClassInfo is null for property: org.slf4j.Logger.traceEnabled
+2019-04-29 10:52:19.573  WARN 17564 --- [main] o.s.d.n.mapping.Neo4jPersistentProperty  : Owning ClassInfo is null for property: org.slf4j.Logger.warnEnabled
+2019-04-29 10:52:19.583  INFO 17564 --- [main] o.s.d.neo4j.mapping.Neo4jMappingContext  : Neo4jMappingContext initialisation completed
+2019-04-29 10:52:20.013  WARN 17564 --- [main] ebConfiguration$Neo4jWebMvcConfiguration : spring.data.neo4j.open-in-view is enabled by default.Therefore, database queries may be performed during view rendering. Explicitly configure spring.data.neo4j.open-in-view to disable this warning
+2019-04-29 10:52:20.123  INFO 17564 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-04-29 10:52:20.198  INFO 17564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-29 10:52:20.445  INFO 17564 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-04-29 10:52:20.461  INFO 17564 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-04-29 10:52:20.493  INFO 17564 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-04-29 10:52:20.653  INFO 17564 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: showPartsUsingGET_1
+2019-04-29 10:52:20.665  INFO 17564 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2019-04-29 10:52:20.691  INFO 17564 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#761e788f:0/SimpleConnection@5eabff6b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 65197]
+2019-04-29 10:52:20.754  INFO 17564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-29 10:52:20.756  INFO 17564 --- [main] com.jwis.demo.DemoApplication            : Started DemoApplication in 3.738 seconds (JVM running for 4.518)

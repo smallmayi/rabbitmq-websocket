@@ -1,0 +1,18 @@
+[
+  {
+    "value": "PLM",
+    "label": "PLM",
+    "children": [{
+      "value": "Part",
+      "label": "Part对象"
+    }]
+  },
+  {
+    "value": "MPM",
+    "label": "MPM",
+    "children": [{
+      "value": "BOP",
+      "label": "BOP"
+    }]
+  }
+]
